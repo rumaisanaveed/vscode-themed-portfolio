@@ -30,5 +30,4 @@ function NavBar() {
     </header>
   );
 }
-// src\assets\icons\vscode.ico
 export default NavBar;

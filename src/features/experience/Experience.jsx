@@ -1,6 +1,6 @@
 import ExperienceItem from "./ExperienceItem";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { ExperienceData } from "./experience";
+import { experienceData } from "./experience";
 
 function Experience() {
   return (
@@ -14,7 +14,7 @@ function Experience() {
           <span className="underline decoration-accentColor">Experience</span>
         </h1>
         <div className="flex flex-col gap-4">
-          {ExperienceData.map((experience, index) => (
+          {experienceData.map((experience, index) => (
             <ExperienceItem key={index} experience={experience} />
           ))}
         </div>

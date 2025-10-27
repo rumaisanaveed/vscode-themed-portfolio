@@ -1,7 +1,7 @@
 import Main from "./components/Main";
 import Home from "./features/home/Home";
 import Contact from "./features/contact/Contact";
-import Projects from "./features/projects/Projects";
+import Projects from "./features/projects/Projects.jsx";
 import Articles from "./features/articles/Articles";
 import Github, { loader as GithubLoader } from "./features/github/Github";
 import Settings from "./features/settings/Settings";

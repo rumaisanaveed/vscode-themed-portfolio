@@ -3,7 +3,7 @@ import EmojiVault from "../../assets/images/emoji-vault.png";
 import Moody from "../../assets/images/moody.png";
 import Spotify from "../../assets/images/spotify.png";
 
-export const ProjectsData = [
+export const projectsData = [
   {
     id: 1,
     title: "Resumaker",

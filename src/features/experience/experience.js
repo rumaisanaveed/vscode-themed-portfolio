@@ -1,4 +1,4 @@
-export const ExperienceData = [
+export const experienceData = [
   {
     title: "Associate Software Engineer - KoderLabs",
     duration: "June 2025 - Present",
