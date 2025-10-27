@@ -20,7 +20,7 @@ function Home() {
           Hey! I'm Rumaisa
         </h2>
         <div>
-          <p className="text-lg font-medium text-[#eee] md:text-xl">
+          <p className="text-lg font-light text-[#eee] md:text-xl">
             I'm a Software Engineer with a primary focus in frontend development
             and expertise in React.js, Next.js and React Native. I've interest
             in both mobile and web application development.And, I'm passionate
@@ -37,7 +37,7 @@ function Home() {
             download="RumaisaResume - Frontend Developer"
             target="_blank"
             to="/resume.pdf"
-            className="bg-accentColor px-6 py-2.5 font-medium text-white md:px-9 md:text-xl"
+            className="bg-accentColor px-6 py-2.5 font-normal text-white md:px-9 md:text-xl"
           >
             Download Resume
           </Link>
