@@ -7,7 +7,7 @@ function TechStack() {
       <Helmet>
         <title>Rumaisa Naveed | Tech Stack</title>
       </Helmet>
-      <div className="flex flex-col gap-6 p-6">
+      <div className="flex flex-col gap-6 p-6 2xl:mx-auto 2xl:max-w-5xl 2xl:items-center 2xl:justify-center">
         <h3 className="text-lg font-semibold text-accentColor underline-offset-4 max-sm:underline xl:text-3xl">
           Tech Stack
         </h3>

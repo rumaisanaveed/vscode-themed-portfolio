@@ -9,7 +9,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "./context/ThemeContext";
 import ErrorPage from "./features/error/ErrorPage";
 import TechStack from "./features/techStack/TechStack";
-import { Experience } from "./features/experience/Experience";
+import Experience from "./features/experience/Experience.jsx";
 
 const router = createBrowserRouter([
   {

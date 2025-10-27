@@ -4,7 +4,6 @@ import css_icon from "../assets/icons/css_icon.svg";
 import js_icon from "../assets/icons/js_icon.svg";
 import json_icon from "../assets/icons/json_icon.svg";
 import markdown_icon from "../assets/icons/markdown_icon.svg";
-
 import { Link, useLocation } from "react-router-dom";
 
 const TabsItems = [
@@ -14,19 +13,9 @@ const TabsItems = [
     icon: `${react_icon}`,
   },
   {
-    name: "tech-stack.html",
-    path: "/tech-stack",
-    icon: `${html_icon}`,
-  },
-  {
-    name: "contact.css",
-    path: "/contact",
-    icon: `${css_icon}`,
-  },
-  {
-    name: "projects.js",
-    path: "/projects",
-    icon: `${js_icon}`,
+    name: "experience.tsx",
+    path: "/experience",
+    icon: `${react_icon}`,
   },
   {
     name: "articles.json",
@@ -34,19 +23,29 @@ const TabsItems = [
     icon: `${json_icon}`,
   },
   {
+    name: "projects.js",
+    path: "/projects",
+    icon: `${js_icon}`,
+  },
+  {
+    name: "contact.css",
+    path: "/contact",
+    icon: `${css_icon}`,
+  },
+  {
+    name: "tech-stack.html",
+    path: "/tech-stack",
+    icon: `${html_icon}`,
+  },
+  {
     name: "github.md",
     path: "/github",
     icon: `${markdown_icon}`,
   },
-  {
-    name: "experience.tsx",
-    path: "/experience",
-    icon: `${react_icon}`,
-  },
 ];
+
 function Tabs() {
   const location = useLocation();
-  // console.log(location);
   return (
     <div className="flex overflow-x-auto bg-tabsBg">
       {TabsItems.map((tab) => {

@@ -20,7 +20,7 @@ function Articles() {
             Hashnode
           </a>
         </h1>
-        <div className="grid gap-x-5 gap-y-5 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-x-5 gap-y-5 md:grid-cols-2 lg:max-w-2xl xl:max-w-5xl xl:grid-cols-3">
           {articles.map((article, index) => {
             return (
               <ArticleCard

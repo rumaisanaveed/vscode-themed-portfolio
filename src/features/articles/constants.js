@@ -12,13 +12,13 @@ export const articles = [
   {
     title:
       "Lessons from My University Journey: Mistakes I Made and Advice for Future Students",
-    description:
-      "Make the most of your university years by learning from my experiences and avoiding the common pitfalls",
+    description: "Make the most of your university years with this guide!",
     image: Article2,
     url: "https://rumaisanaveed.hashnode.dev/lessons-from-my-university-journey-mistakes-i-made-and-advice-for-future-students",
   },
   {
-    title: "How to add a good readme in your GitHub projects",
+    title:
+      "How to add a good readme in your GitHub projects to document your projects",
     description: "Standout from the Crowd by Making Your GitHub Profile Unique",
     image: Article3,
     url: "https://rumaisanaveed.hashnode.dev/how-to-add-a-good-readme-in-your-github-projects",

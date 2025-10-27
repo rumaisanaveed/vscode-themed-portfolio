@@ -17,18 +17,18 @@ function Github() {
         <title>Rumaisa Naveed | Github</title>
       </Helmet>
       <div className="space-y-8 bg-mainBg p-4 md:p-8">
-        <div className="flex h-24 items-center gap-x-5 divide-x-2 divide-accentColor rounded-lg bg-articleBg">
+        <div className="flex h-24 w-fit items-center gap-x-5 divide-x-2 divide-accentColor rounded-lg bg-articleBg px-3">
           <div className="flex items-center justify-center gap-x-2 divide-x-2  divide-accentColor ">
             <span>
               <img
                 width={60}
                 height={60}
-                className="  rounded-full"
+                className="rounded-full"
                 src={user ? user.avatar_url : "Not found"}
-                alt=""
+                alt="GitHub Avatar"
               />
             </span>
-            <h2 className="pl-2 text-lg font-medium text-textColor   md:text-2xl">
+            <h2 className="pl-2 text-lg font-medium text-textColor md:text-2xl">
               {user.login}
             </h2>
           </div>
@@ -43,7 +43,7 @@ function Github() {
             </h2>
           </div>
         </div>
-        <div className="grid gap-x-5 gap-y-5 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-x-5 gap-y-5 md:grid-cols-2 lg:max-w-2xl xl:max-w-5xl xl:grid-cols-3">
           {repoInfo &&
             repoInfo.map((r) => {
               return (

@@ -15,19 +15,9 @@ const explorerItems = [
     icon: `${react_icon}`,
   },
   {
-    name: "tech-stack.html",
-    path: "/tech-stack",
-    icon: `${html_icon}`,
-  },
-  {
-    name: "contact.css",
-    path: "/contact",
-    icon: `${css_icon}`,
-  },
-  {
-    name: "projects.js",
-    path: "/projects",
-    icon: `${js_icon}`,
+    name: "experience.tsx",
+    path: "/experience",
+    icon: `${react_icon}`,
   },
   {
     name: "articles.json",
@@ -35,14 +25,24 @@ const explorerItems = [
     icon: `${json_icon}`,
   },
   {
+    name: "projects.js",
+    path: "/projects",
+    icon: `${js_icon}`,
+  },
+  {
+    name: "contact.css",
+    path: "/contact",
+    icon: `${css_icon}`,
+  },
+  {
+    name: "tech-stack.html",
+    path: "/tech-stack",
+    icon: `${html_icon}`,
+  },
+  {
     name: "github.md",
     path: "/github",
     icon: `${markdown_icon}`,
-  },
-  {
-    name: "experience.tsx",
-    path: "/experience",
-    icon: `${react_icon}`,
   },
 ];
 

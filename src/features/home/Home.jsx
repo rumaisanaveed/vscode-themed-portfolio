@@ -8,9 +8,13 @@ function Home() {
       <Helmet>
         <title>Rumaisa Naveed | Home</title>
       </Helmet>
-      <div className="flex w-full flex-col items-start justify-center gap-2 p-5 md:gap-5">
-        <div className="h-44 w-44 rounded-full">
-          <img src={ProfilePic} alt="Profile Pic" className="rounded-full" />
+      <div className="flex w-full flex-col items-start justify-center gap-2 p-5 md:gap-5 2xl:mx-auto 2xl:max-w-5xl 2xl:items-center">
+        <div className="h-44 w-44 self-center rounded-full md:self-start 2xl:self-center">
+          <img
+            src={ProfilePic}
+            alt="Profile Pic"
+            className="h-44 w-44 rounded-full object-center"
+          />
         </div>
         <h2 className="text-3xl font-semibold text-[#eee] md:text-5xl">
           Hey! I'm Rumaisa
