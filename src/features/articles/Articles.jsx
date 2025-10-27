@@ -9,17 +9,7 @@ function Articles() {
         <title>Rumaisa Naveed | Articles</title>
       </Helmet>
       <div className="p-8">
-        <h1 className="pb-8 text-3xl font-semibold text-textColor">
-          Recent posts from&nbsp;
-          <a
-            className="underline decoration-accentColor"
-            href="https://rumaisanaveed.hashnode.dev"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Hashnode
-          </a>
-        </h1>
+        <ArticlesHeader />
         <div className="grid gap-x-5 gap-y-5 md:grid-cols-2 lg:max-w-2xl xl:max-w-5xl xl:grid-cols-3">
           {articles.map((article, index) => {
             return (
@@ -36,6 +26,22 @@ function Articles() {
       </div>
     </HelmetProvider>
   );
+}
+
+const ArticlesHeader = () => {
+  return (
+    <h1 className="pb-8 text-3xl font-semibold text-textColor">
+      Recent posts from&nbsp;
+      <a
+        className="underline decoration-accentColor"
+        href="https://rumaisanaveed.hashnode.dev"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Hashnode
+      </a>
+    </h1>
+  )
 }
 
 export default Articles;

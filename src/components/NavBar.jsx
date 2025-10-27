@@ -1,10 +1,12 @@
 import vscode from "../assets/icons/vscode.ico";
+
 const list = ["File", "Edit", "View", "Go", "Run", "Terminal", "Help"];
-function NavBar({ theme }) {
+
+function NavBar() {
   return (
-    <header className={`bg-titlebarBg text-textColor `}>
+    <header className="bg-titlebarBg text-textColor">
       <nav
-        className={`mx-3 flex h-8 items-center justify-between  text-center`}
+        className="mx-3 flex h-8 items-center justify-between text-center"
       >
         <div className="mr-auto flex  items-center md:gap-x-3">
           <img src={vscode} height={20} width={20} alt="" />

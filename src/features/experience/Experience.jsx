@@ -1,4 +1,3 @@
-import React from "react";
 import ExperienceItem from "./ExperienceItem";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { ExperienceData } from "./experience";

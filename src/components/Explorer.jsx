@@ -1,50 +1,7 @@
 import { useState } from "react";
-import ChevronRight from "./icons/ChevronRight";
-import react_icon from "../assets/icons/react_icon.svg";
-import html_icon from "../assets/icons/html_icon.svg";
-import css_icon from "../assets/icons/css_icon.svg";
-import js_icon from "../assets/icons/js_icon.svg";
-import json_icon from "../assets/icons/json_icon.svg";
-import markdown_icon from "../assets/icons/markdown_icon.svg";
 import { Link } from "react-router-dom";
-
-const explorerItems = [
-  {
-    name: "home.jsx",
-    path: "/",
-    icon: `${react_icon}`,
-  },
-  {
-    name: "experience.tsx",
-    path: "/experience",
-    icon: `${react_icon}`,
-  },
-  {
-    name: "articles.json",
-    path: "/articles",
-    icon: `${json_icon}`,
-  },
-  {
-    name: "projects.js",
-    path: "/projects",
-    icon: `${js_icon}`,
-  },
-  {
-    name: "contact.css",
-    path: "/contact",
-    icon: `${css_icon}`,
-  },
-  {
-    name: "tech-stack.html",
-    path: "/tech-stack",
-    icon: `${html_icon}`,
-  },
-  {
-    name: "github.md",
-    path: "/github",
-    icon: `${markdown_icon}`,
-  },
-];
+import ChevronRight from "./icons/ChevronRight";
+import { explorerItems } from "../constants";
 
 function Explorer() {
   const [show, setShow] = useState(true);
@@ -57,7 +14,7 @@ function Explorer() {
           onClick={() => setShow(!show)}
         >
           <ChevronRight style={show ? { transform: "rotate(90deg)" } : {}} />
-          <p htmlFor="portfolio-checkbox" className=" text-lg font-semibold">
+          <p htmlFor="portfolio-checkbox" className="text-lg font-semibold">
             RUMAISA PORTFOLIO
           </p>
         </div>

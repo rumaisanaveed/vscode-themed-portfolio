@@ -1,43 +1,6 @@
-import Code from "./icons/CodeIcon";
-import Files from "./icons/FilesIcon";
-import Github from "./icons/GithubIcon";
-import Pencil from "./icons/Pencil";
-import Mail from "./icons/MailIcon";
-import Account from "./icons/AccountIcon";
-import Settings from "./icons/SettingsIcon";
 import { Link, useLocation } from "react-router-dom";
-const sidebarTopItems = [
-  {
-    Icon: Files,
-    path: "/",
-  },
-  {
-    Icon: Github,
-    path: "/github",
-  },
-  {
-    Icon: Code,
-    path: "/projects",
-  },
-  {
-    Icon: Pencil,
-    path: "/articles",
-  },
-  {
-    Icon: Mail,
-    path: "/contact",
-  },
-];
-const sidebarBottomItems = [
-  {
-    Icon: Account,
-    path: "/",
-  },
-  {
-    Icon: Settings,
-    path: "/settings",
-  },
-];
+import { sidebarBottomItems, sidebarTopItems } from "../constants";
+
 function SideBar() {
   const location = useLocation();
   return (
