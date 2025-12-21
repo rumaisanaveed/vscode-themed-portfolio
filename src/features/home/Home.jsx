@@ -33,14 +33,13 @@ function Home() {
           </p>
         </div>
         <div className="flex items-center gap-6">
-          <Link
-            download="RumaisaResume - Frontend Developer"
+          <a
             target="_blank"
-            to="/resume.pdf"
+            href="/resume.pdf"
             className="bg-accentColor px-6 py-2.5 font-normal text-white md:px-9 md:text-xl"
           >
             Download Resume
-          </Link>
+          </a>
           <Link to="/contact">
             <button className="border-2 border-accentColor px-5 py-2 text-textColor md:px-8 md:text-xl">
               Contact Me
