@@ -1,20 +1,18 @@
 import Tag from "./Tag";
 
-function ProjectCard({ img, title, desc, tags, srcCode, demo }) {
+function Project({ img, title, desc, tags, srcCode, demo, achievements }) {
   return (
-    <div className="flex cursor-pointer flex-col rounded-xl bg-articleBg text-textColor hover:shadow-lg 2xl:w-[400px]">
-      <div className="relative aspect-[3/2] w-full max-w-[360px] overflow-hidden rounded-lg md:max-w-[400px]">
-        <img
-          src={img}
-          alt={title}
-          className="h-full w-full object-contain object-center"
-        />
-      </div>
-
-      <div className="flex flex-col gap-y-2 p-4">
+    <div className="flex flex-col text-textColor">
+      <div className="flex flex-col gap-y-4">
         <h2 className="text-2xl font-semibold">{title}</h2>
         <p className="text-base font-medium">{desc}</p>
-        <div>
+        <h3 className="text-xl font-semibold">Project Achievements</h3>
+        <ul className="list-disc ml-8">
+          {achievements.map((achievement, index) => (
+            <li key={index}>{achievement}</li>
+          ))}
+        </ul>
+        <div className="flex flex-wrap max-w-full lg:max-w-2xl">
           {tags.map((tag) => {
             return <Tag key={tag} tagName={tag} />;
           })}
@@ -23,7 +21,7 @@ function ProjectCard({ img, title, desc, tags, srcCode, demo }) {
           {srcCode && (
             <a
               href={srcCode}
-              className="px-1 py-1 text-lg font-semibold underline  decoration-accentColor hover:bg-accentColor"
+              className="px-1 py-1 text-lg font-semibold underline decoration-accentColor hover:bg-accentColor"
               target="_blank"
               rel="noreferrer"
             >
@@ -42,8 +40,15 @@ function ProjectCard({ img, title, desc, tags, srcCode, demo }) {
           )}
         </div>
       </div>
+      <div className="self-center">
+        <img
+          src={img}
+          alt={title}
+          className="h-full w-full object-contain object-center"
+        />
+      </div>
     </div>
   );
 }
 
-export default ProjectCard;
+export default Project;

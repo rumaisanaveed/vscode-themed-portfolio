@@ -43,21 +43,12 @@ export const explorerItems = [
     path: "/tech-stack",
     icon: `${html_icon}`,
   },
-  {
-    name: "github.md",
-    path: "/github",
-    icon: `${markdown_icon}`,
-  },
 ];
 
 export const sidebarTopItems = [
   {
     Icon: Files,
     path: "/",
-  },
-  {
-    Icon: Github,
-    path: "/github",
   },
   {
     Icon: Code,

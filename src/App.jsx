@@ -1,15 +1,14 @@
-import Main from "./components/Main";
-import Home from "./features/home/Home";
-import Contact from "./features/contact/Contact";
-import Projects from "./features/projects/Projects.jsx";
-import Articles from "./features/articles/Articles";
-import Github, { loader as GithubLoader } from "./features/github/Github";
-import Settings from "./features/settings/Settings";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Main from "./components/Main";
 import { ThemeProvider } from "./context/ThemeContext";
+import Articles from "./features/articles/Articles";
+import Contact from "./features/contact/Contact";
 import ErrorPage from "./features/error/ErrorPage";
-import TechStack from "./features/techStack/TechStack";
 import Experience from "./features/experience/Experience.jsx";
+import Home from "./features/home/Home";
+import Projects from "./features/projects/Projects.jsx";
+import Settings from "./features/settings/Settings";
+import TechStack from "./features/techStack/TechStack";
 
 const router = createBrowserRouter([
   {
@@ -35,11 +34,6 @@ const router = createBrowserRouter([
       {
         path: "/articles",
         element: <Articles />,
-      },
-      {
-        path: "/github",
-        element: <Github />,
-        loader: GithubLoader,
       },
       {
         path: "/experience",

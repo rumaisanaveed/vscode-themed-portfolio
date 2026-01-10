@@ -21,15 +21,17 @@ function Home() {
         </h2>
         <div>
           <p className="text-lg font-light text-[#eee] md:text-xl">
-            I'm a Software Engineer with a primary focus in frontend development
-            and expertise in React.js, Next.js and React Native. I've interest
-            in both mobile and web application development.And, I'm passionate
-            about building scalable and user-friendly web applications, solving
-            complex problems, and delivering impactful results. Highly adaptable
-            and quick to learn, I thrive in collaborative environments where I
-            can contribute meaningfully while growing both personally and
-            professionally. In my free time, I write articles to share my tech
-            learnings and insights from my personal and professional journey.
+            I am a Software Engineering graduate from UBIT (Department of
+            Computer Science), University of Karachi. My primary focus is
+            frontend development, with expertise in React.js, Next.js, and React
+            Native. I am interested in both mobile and web application
+            development. I am passionate about building scalable and
+            user-friendly applications, solving complex problems, and delivering
+            impactful results. Highly adaptable and quick to learn, I thrive in
+            collaborative environments where I can contribute meaningfully while
+            growing both personally and professionally. In my free time, I write
+            articles to share my technical learnings and insights from my
+            personal and professional journey.
           </p>
         </div>
         <div className="flex items-center gap-6">

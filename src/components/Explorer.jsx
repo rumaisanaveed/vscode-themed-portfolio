@@ -6,9 +6,9 @@ import { explorerItems } from "../constants";
 function Explorer() {
   const [show, setShow] = useState(true);
   return (
-    <div className="flex flex-col items-start bg-explorerBg text-white max-sm:hidden">
+    <div className="flex flex-col items-start bg-explorerBg text-white max-sm:hidden h-full">
       <h1 className="pl-2 text-2xl font-medium uppercase">Explorer</h1>
-      <div className="flex min-w-[15vw]  flex-col">
+      <div className="flex overflow-auto min-w-[15vw] flex-col">
         <div
           className="flex cursor-pointer items-center pl-1 pt-2 "
           onClick={() => setShow(!show)}
