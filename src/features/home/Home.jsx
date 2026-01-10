@@ -8,7 +8,7 @@ function Home() {
       <Helmet>
         <title>Rumaisa Naveed | Home</title>
       </Helmet>
-      <div className="flex w-full flex-col items-start justify-center gap-2 p-5 md:gap-5 2xl:mx-auto 2xl:max-w-5xl 2xl:items-center">
+      <div className="flex w-full flex-col items-start justify-start gap-2 p-5 md:gap-5 2xl:mx-auto 2xl:max-w-5xl 2xl:items-center">
         <div className="h-44 w-44 self-center rounded-full md:self-start 2xl:self-center">
           <img
             src={ProfilePic}
@@ -34,16 +34,16 @@ function Home() {
             personal and professional journey.
           </p>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-2 sm:gap-6">
           <a
             target="_blank"
             href="/resume.pdf"
-            className="bg-accentColor px-6 py-2.5 font-normal text-white md:px-9 md:text-xl"
+            className="bg-accentColor px-1.5 py-2 font-normal text-white md:px-9 text-sm md:text-xl"
           >
             Download Resume
           </a>
           <Link to="/contact">
-            <button className="border-2 border-accentColor px-5 py-2 text-textColor md:px-8 md:text-xl">
+            <button className="border-2 border-accentColor px-5 py-1.5 text-sm text-textColor md:px-8 md:text-xl">
               Contact Me
             </button>
           </Link>

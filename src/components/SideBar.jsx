@@ -4,7 +4,7 @@ import { sidebarBottomItems, sidebarTopItems } from "../constants";
 function SideBar() {
   const location = useLocation();
   return (
-    <aside className="flex w-[4.2vw] min-w-[40px] flex-col justify-between bg-sidebarBg pt-2 pb-8 h-full overflow-y-auto">
+    <aside className="flex w-[4.2vw] min-w-[40px] flex-col justify-between bg-sidebarBg pt-2 pb-8 h-full">
       <div className="flex flex-col items-start justify-center gap-y-1 md:gap-y-3">
         {sidebarTopItems.map(({ Icon, path }) => {
           return (

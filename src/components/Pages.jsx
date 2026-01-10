@@ -3,7 +3,7 @@ import Tabs from "./Tabs";
 
 function Pages() {
   return (
-    <div className="flex-1 overflow-y-auto p-4 min-h-screen bg-mainBg">
+    <div className="flex-1 overflow-y-auto p-4 bg-mainBg">
       <Tabs />
       <section className="bg-mainBg">
         <Outlet />

@@ -8,7 +8,7 @@ function Experience() {
       <Helmet>
         <title>Rumaisa Naveed | Experience</title>
       </Helmet>
-      <div className="w-full bg-mainBg p-8 2xl:flex 2xl:flex-col 2xl:items-center 2xl:justify-center">
+      <div className="w-full bg-mainBg p-4 2xl:flex 2xl:flex-col 2xl:items-center 2xl:justify-start">
         <h1 className="pb-5 text-3xl text-textColor">
           Working&nbsp;
           <span className="underline decoration-accentColor">Experience</span>
