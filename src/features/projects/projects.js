@@ -23,7 +23,7 @@ export const projectsData = [
       "MySQL",
     ],
     sourceCode: "https://github.com/AbdulWasaySaleem/CareerMentor.git",
-    demo: "",
+    demo: "https://tech-path-ai.vercel.app/",
     achievements: [
       "Developed the frontend of Tech Path AI as part of the Final Year Project (FYP).",
       "Implemented role-based access control for user and admin dashboards.",
