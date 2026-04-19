@@ -39,6 +39,7 @@ function Home() {
             target="_blank"
             href="/resume.pdf"
             className="bg-accentColor px-1.5 py-2 font-normal text-white md:px-9 text-sm md:text-xl"
+            download="RumaisaResume-FrontendDeveloper.pdf"
           >
             Download Resume
           </a>
