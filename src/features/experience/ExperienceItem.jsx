@@ -5,7 +5,7 @@ const ExperienceItem = ({ experience }) => {
         {experience.duration}
       </p>
       <div>
-        <h2 className="text-base font-semibold text-textColor">
+        <h2 className="text-lg font-semibold text-textColor mb-2">
           {experience.title}
         </h2>
         <ul className="list-disc">

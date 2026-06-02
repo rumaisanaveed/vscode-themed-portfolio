@@ -1,7 +1,24 @@
 export const experienceData = [
   {
+    title : "Frontend Developer - Simpaisa",
+    duration : "April 2026 - Present",
+    description: [
+      "Developed scalable, high-performance fintech web applications using Angular and TypeScript.",
+      "Integrated RESTful APIs to deliver secure, real-time financial services and transaction workflows.",
+      "Built responsive, user-friendly interfaces while ensuring performance optimization and cross-browser compatibility.",
+      "Collaborated with backend teams on API integration, bug fixing, code reviews, and feature enhancements following industry best practices."
+    ],
+    tech : [
+      "Angular",
+      "SCSS",
+      "Bit Bucket",
+      "Api Integration",
+      "TypeScript"
+    ]
+  },
+  {
     title: "Associate Software Engineer - KoderLabs",
-    duration: "June 2025 - Present",
+    duration: "June 2025 - March 2026",
     description: [
       "Developed scalable, high-performance mobile applications using React Native and web applications using React and Next.js.",
       "Integrated RESTful APIs to deliver dynamic, real-time features across mobile and web platforms.",
@@ -21,25 +38,6 @@ export const experienceData = [
       "Next.js",
       "Tailwind CSS",
       "Api Integration",
-      "Git",
-      "GitHub",
-    ],
-  },
-  {
-    title: "Associate Software Engineer - Native Brains",
-    duration: "Feb 2024 - May 2024",
-    description: [
-      "Translated wireframes into functional and responsive front-end code, contributing to a seamless user experience and efficient project development.",
-      "Collaborated closely with backend developers and designers, ensuring smooth integration of design elements and APIs to meet project requirements and deadlines.",
-      "Followed best coding practices, including clean and maintainable code, and integrated RESTful APIs and services, which enhanced the overall project performance and scalability.",
-    ],
-    tech: [
-      "React.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Ant Design",
-      "Api Integration",
-      "VS Code",
       "Git",
       "GitHub",
     ],

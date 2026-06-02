@@ -9,6 +9,7 @@ import Home from "./features/home/Home";
 import Projects from "./features/projects/Projects.jsx";
 import Settings from "./features/settings/Settings";
 import TechStack from "./features/techStack/TechStack";
+import Hackathons from "./features/hackathons/Hackathons.jsx";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "/experience",
         element: <Experience />,
+      },
+      {
+        path: "/hackathons",
+        element: <Hackathons />,
       },
       {
         path: "/settings",
