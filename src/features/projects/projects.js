@@ -3,6 +3,7 @@ import Resumaker from "../../assets/images/resumaker.png";
 import Spotify from "../../assets/images/spotify.png";
 import TechPathAi from "../../assets/images/TechPathAI.png";
 import SalMine from "../../assets/images/SalMine.png";
+import SalAngular from "../../assets/images/sal-angular.png";
 
 export const projectsData = [
   {
@@ -23,7 +24,7 @@ export const projectsData = [
       "MySQL",
     ],
     sourceCode: "https://github.com/AbdulWasaySaleem/CareerMentor.git",
-    demo: "https://tech-path-ai.vercel.app/",
+    // demo: "https://tech-path-ai.vercel.app/",
     achievements: [
       "Developed the frontend of Tech Path AI as part of the Final Year Project (FYP).",
       "Implemented role-based access control for user and admin dashboards.",
@@ -42,43 +43,40 @@ export const projectsData = [
     image: SalMine,
     tags: ["React.js", "Tailwind CSS", "Axios", "Context API"],
     sourceCode: "",
-    demo: "",
+    demo: "https://savealifemine.com/",
     achievements: [
       "Successfully implemented a fully responsive design, ensuring optimal performance and usability across all devices, from desktops to mobile phones.",
       "Implemented role-based access control for patient and doctors dashboards.",
       "Developed a clean and intuitive UI, resulting in increased user engagement and satisfaction.",
       "Created reusable React components, reducing development time and ensuring consistency across the application.",
       "Implemented English to Spanish translation and vice versa using i18n, providing real-time language translation.",
+      "Integrated Stripe subscription-based payment system, allowing users to select from multiple pricing plans, securely add and save card details, and enable automated recurring or on-demand payments with seamless charge processing.",
       "Integrated html2canvas for previewing and downloading the patient card, improving user satisfaction and engagement.",
       "Collaborated with backend developer for integrating Restful APIs into the application.",
+      "Identified and resolved critical bugs across multiple modules in the pre-existing code, improving overall application performance.",
     ],
   },
-  {
-    id: 3,
-    title: "Resumaker",
-    description:
-      "Resumaker is a versatile web app designed to make resume creation simple and efficient for users preparing for their next roles.",
-    image: Resumaker,
-    tags: [
-      "Next.js",
-      "React.js",
-      "Clerk",
-      "Firebase",
-      "Tailwind CSS",
-      "Ant Design",
-    ],
-    sourceCode: "https://github.com/rumaisanaveed/resumaker.git",
-    demo: "https://resume-maker-kit.netlify.app/",
-    achievements: [
-      "Successfully implemented a fully responsive design, ensuring optimal performance and usability across desktops, tablets, and mobile devices.",
-      "Implemented role-based access control for patient and doctor dashboards to maintain secure and structured access.",
-      "Designed and developed a clean, intuitive UI, enhancing user engagement and overall satisfaction.",
-      "Built reusable React components, reducing development time and maintaining design consistency across the application.",
-      "Implemented real-time English-Spanish translation using i18n, enabling seamless bilingual support.",
-      "Integrated html2canvas for patient card preview and download functionality, improving user experience and engagement.",
-      "Collaborated closely with the backend developer to integrate RESTful APIs, ensuring smooth data flow and functionality.",
-    ],
-  },
+ {
+  id: 3,
+  title: "Health Pass",
+  description:
+    "Health Pass is an upgraded version of the SAL Mine project, rebuilt using Angular to enhance frontend architecture, performance, and maintainability. The application focuses on improving UI consistency, scalability, and user experience while preserving core healthcare-first-aid functionality from the original system.",
+  // image: SalAngular,
+  tags: [
+    "Angular",
+    "TypeScript",
+    "Tailwind CSS",
+  ],
+  sourceCode: "https://sal-angular.vercel.app/",
+  demo: "https://github.com/rumaisanaveed/sal-angular-frontend",
+  achievements: [
+    "Rebuilt the SAL Mine project patient's view using Angular21 to strengthen frontend architecture and improve maintainability.",
+    "Enhanced overall UI/UX by redesigning components for better usability, consistency, and responsiveness across devices.",
+    "Implemented modular and reusable Angular components, improving development efficiency and code reusability.",
+    "Optimized application structure using Angular best practices, resulting in better performance and cleaner code organization.",
+    "Improved state handling and data flow using Angular services and signals to follow latest angular approach.",
+  ],
+},
   {
     id: 4,
     title: "Moody",

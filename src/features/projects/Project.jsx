@@ -40,13 +40,15 @@ function Project({ img, title, desc, tags, srcCode, demo, achievements }) {
           )}
         </div>
       </div>
-      <div className="self-center">
-        <img
-          src={img}
-          alt={title}
-          className="h-full w-full object-contain object-center"
+      {img && (
+        <div className="self-center">
+          <img
+            src={img}
+            alt={title}
+            className="h-full w-full object-contain object-center"
         />
       </div>
+      )}
     </div>
   );
 }

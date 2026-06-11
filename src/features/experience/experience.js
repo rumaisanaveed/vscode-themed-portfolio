@@ -1,12 +1,16 @@
+import KlLogo from "../../assets/icons/kl-logo.png";
+import SpLogo from "../../assets/icons/sp-logo.png";
+
 export const experienceData = [
   {
     title : "Frontend Developer - Simpaisa",
     duration : "April 2026 - Present",
     description: [
-      "Developed scalable, high-performance fintech web applications using Angular and TypeScript.",
-      "Integrated RESTful APIs to deliver secure, real-time financial services and transaction workflows.",
-      "Built responsive, user-friendly interfaces while ensuring performance optimization and cross-browser compatibility.",
-      "Collaborated with backend teams on API integration, bug fixing, code reviews, and feature enhancements following industry best practices."
+      "Developed web applications in a fintech based environment using Angular and TypeScript, contributing to production-level apps used by end users.",
+      "Designed and implemented a reusable component architecture, improving code maintainability and reducing development effort for new features.",
+      "Integrated RESTful APIs for secure financial transactions, ensuring reliable and consistent user experience.",
+      "Improved UI performance and responsiveness, delivering a seamless experience across devices and major browsers.",
+      "Collaborated with backend developers and QA team on API integration, bug fixing, and feature enhancements, reducing production issues and improving system stability."
     ],
     tech : [
       "Angular",
@@ -14,7 +18,9 @@ export const experienceData = [
       "Bit Bucket",
       "Api Integration",
       "TypeScript"
-    ]
+    ],
+    logo : SpLogo,
+    website : "https://www.simpaisa.com/"
   },
   {
     title: "Associate Software Engineer - KoderLabs",
@@ -41,5 +47,7 @@ export const experienceData = [
       "Git",
       "GitHub",
     ],
+    logo : KlLogo,
+    website : "https://www.koderlabs.com/"
   },
 ];
