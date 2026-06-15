@@ -21,12 +21,13 @@ function Home() {
         </h2>
         <div>
           <p className="text-lg font-light text-[#eee] md:text-xl">
-            Software Engineer with 1 year of experience in frontend and mobile application development, 
-            specializing in React.js, Next.js, React Native, and TypeScript. Experienced in building scalable,
-            web and mobile applications, integrating RESTful APIs, and delivering responsive, user-centric user
-            experiences. Passionate about creating maintainable solutions, optimizing application performance, 
-            and solving complex technical challenges. A collaborative team player with a strong commitment to 
-            continuous learning, code quality, and delivering impactful business outcomes.
+            Frontend Developer with 1+ year of experience in frontend and mobile application development, 
+            specializing in React.js, Next.js, Angular, React Native, and TypeScript. Experienced in building scalable,
+            web and mobile applications, integrating RESTful APIs, third party services, payment systems 
+            including Stripe and delivering responsive, user-centric user experiences. Passionate about creating
+            maintainable solutions, optimizing application performance, and solving complex technical challenges.
+            A collaborative team player with a strong commitment to continuous learning, code quality, and delivering
+            impactful business outcomes.
           </p>
         </div>
         <div className="flex items-center gap-2 sm:gap-6">

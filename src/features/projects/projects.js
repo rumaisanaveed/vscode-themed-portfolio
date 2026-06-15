@@ -24,10 +24,9 @@ export const projectsData = [
       "MySQL",
     ],
     sourceCode: "https://github.com/AbdulWasaySaleem/CareerMentor.git",
-    // demo: "https://tech-path-ai.vercel.app/",
     achievements: [
       "Developed the frontend of Tech Path AI as part of the Final Year Project (FYP).",
-      "Implemented role-based access control for user and admin dashboards.",
+      "Implemented role-based access control (RBAC) for user and admin dashboards.",
       "Built a responsive and scalable UI using React.js, Tailwind CSS, and Shadcn UI.",
       "Integrated RESTful APIs using Axios and React Query for efficient data fetching and real-time updates.",
       "Implemented complex form validation with React Hook Form and Yup, reducing errors by 50%.",
@@ -46,12 +45,11 @@ export const projectsData = [
     demo: "https://savealifemine.com/",
     achievements: [
       "Successfully implemented a fully responsive design, ensuring optimal performance and usability across all devices, from desktops to mobile phones.",
-      "Implemented role-based access control for patient and doctors dashboards.",
+      "Implemented role-based access control (RBAC) for patient and doctors dashboards.",
       "Developed a clean and intuitive UI, resulting in increased user engagement and satisfaction.",
       "Created reusable React components, reducing development time and ensuring consistency across the application.",
       "Implemented English to Spanish translation and vice versa using i18n, providing real-time language translation.",
       "Integrated Stripe subscription-based payment system, allowing users to select from multiple pricing plans, securely add and save card details, and enable automated recurring or on-demand payments with seamless charge processing.",
-      "Integrated html2canvas for previewing and downloading the patient card, improving user satisfaction and engagement.",
       "Collaborated with backend developer for integrating Restful APIs into the application.",
       "Identified and resolved critical bugs across multiple modules in the pre-existing code, improving overall application performance.",
     ],
@@ -60,8 +58,7 @@ export const projectsData = [
   id: 3,
   title: "Health Pass",
   description:
-    "Health Pass is an upgraded version of the SAL Mine project, rebuilt using Angular to enhance frontend architecture, performance, and maintainability. The application focuses on improving UI consistency, scalability, and user experience while preserving core healthcare-first-aid functionality from the original system.",
-  // image: SalAngular,
+    "Health Pass is a healthcare-focused web application designed to provide instant access to critical patient information during medical emergencies. The platform allows users to securely maintain their essential medical records and generate a unique QR code linked to their health profile.",
   tags: [
     "Angular",
     "TypeScript",
@@ -70,12 +67,14 @@ export const projectsData = [
   sourceCode: "https://sal-angular.vercel.app/",
   demo: "https://github.com/rumaisanaveed/sal-angular-frontend",
   achievements: [
-    "Rebuilt the SAL Mine project patient's view using Angular21 to strengthen frontend architecture and improve maintainability.",
-    "Enhanced overall UI/UX by redesigning components for better usability, consistency, and responsiveness across devices.",
-    "Implemented modular and reusable Angular components, improving development efficiency and code reusability.",
-    "Optimized application structure using Angular best practices, resulting in better performance and cleaner code organization.",
-    "Improved state handling and data flow using Angular services and signals to follow latest angular approach.",
-  ],
+  "Developed a modern healthcare-based web application using Angular 21, focusing on scalable architecture and maintainable code structure.",
+  "Designed and implemented a responsive, user-friendly interface, enhancing usability and ensuring a consistent experience across devices.",
+  "Built modular and reusable Angular components, reducing development effort and improving code maintainability.",
+  "Applied Angular best practices and architectural patterns to optimize application performance and streamline code organization.",
+  "Implemented efficient state management and reactive data flow using Angular Services and Signals, leveraging the latest Angular features.",
+  "Enhanced application responsiveness and user experience through performance optimizations and clean component design.",
+  "Followed industry-standard development practices, including debugging, testing, and continuous refactoring to maintain code quality."
+],
 },
   {
     id: 4,
