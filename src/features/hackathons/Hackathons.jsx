@@ -11,11 +11,8 @@ function Hackathons() {
 
       <div className="min-h-screen w-full bg-mainBg p-4 md:py-8 md:px-0">
         <div className="">
-          <h1 className="mb-10 text-3xl text-textColor">
-            Hackathon
-            <span className="underline decoration-accentColor">
-              Experience
-            </span>
+          <h1 className="mb-10 text-3xl text-textColor underline decoration-accentColor">
+            Hackathons
           </h1>
 
           <div className="flex flex-col md:flex-row gap-6">
