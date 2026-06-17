@@ -22,12 +22,12 @@ function Home() {
         <div>
           <p className="text-lg font-light text-[#eee] md:text-xl">
             Frontend Developer with 1+ year of experience in frontend and mobile application development, 
-            specializing in React.js, Next.js, Angular, React Native, and TypeScript. Experienced in building scalable,
-            web and mobile applications, integrating RESTful APIs, third party services, payment systems 
-            including Stripe and delivering responsive, user-centric user experiences. Passionate about creating
-            maintainable solutions, optimizing application performance, and solving complex technical challenges.
-            A collaborative team player with a strong commitment to continuous learning, code quality, and delivering
-            impactful business outcomes.
+            specializing in React.js & React Native with a solid experience in Next.js & Angular. Experienced working
+            in both service-based and product-based organizations, collaborating with cross-functional teams.
+            Focused on building scalable web and mobile applications, integrating RESTful APIs, third party services, 
+            payment systems including Stripe and delivering responsive, user-centric user experiences. A 
+            strong team player with a commitment to continuous learning, code quality, creative thinking,
+            excellent problem solving skills & a collaborative mindset.
           </p>
         </div>
         <div className="flex items-center gap-2 sm:gap-6">
